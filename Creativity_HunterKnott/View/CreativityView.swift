@@ -62,16 +62,21 @@ public class CreativityView: UIView
     {
         let orange = UIBezierPath()
         UIColor.orange.setFill()
-        
         orange.addArc(withCenter: CGPoint(x: 50, y: 50),
-                      radius: CGFloat(20),
+                      radius: CGFloat(15),
                       startAngle: CGFloat(0),
                       endAngle: CGFloat(2) * CGFloat.pi,
                       clockwise: true)
-        
-        //orange.move(to: CGPoint(x: 50, y: 50))
-        //orange.close()
         orange.fill()
+        
+        let lemon = UIBezierPath()
+        UIColor.yellow.setFill()
+        lemon.addArc(withCenter: CGPoint(x: 75, y: 50),
+                     radius: CGFloat(15),
+                     startAngle: CGFloat(0),
+                     endAngle: CGFloat(1) * CGFloat.pi,
+                     clockwise: true)
+        lemon.fill()
     }
     
 
