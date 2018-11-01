@@ -26,7 +26,7 @@
                                     <segue destination="swB-OI-q6b" kind="show" id="0up-hR-nqd"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fpB-rp-ib2">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fpB-rp-ib2" customClass="CreativityView" customModule="Creativity_HunterKnott" customModuleProvider="target">
                                 <rect key="frame" x="67" y="44" width="240" height="439"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76623218911917101" green="0.35873664722443432" blue="0.30334497521921139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
