@@ -25,7 +25,7 @@ public class CreativityView: UIView
         let figure : UIBezierPath = UIBezierPath()
         
         UIColor.cyan.setStroke()
-        figure.lineWidth = 3.0
+        figure.lineWidth = 1.0
         
         figure.addArc(withCenter: CGPoint(x: 200, y: 200),
                       radius: CGFloat(20),
