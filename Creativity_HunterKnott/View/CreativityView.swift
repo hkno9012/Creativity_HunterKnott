@@ -18,6 +18,8 @@ public class CreativityView: UIView
     {
         // Drawing code
         createStickFigure().stroke()
+        drawTurtle()
+        drawFruitBowl()
     }
     
     private func createStickFigure() -> UIBezierPath
@@ -43,6 +45,33 @@ public class CreativityView: UIView
         figure.addLine(to: CGPoint(x: 220, y: 300))
         
         return figure
+    }
+    
+    private func drawTurtle() -> Void
+    {
+        let logo = UIBezierPath()
+        UIColor.white.setFill()
+        logo.move(to: CGPoint(x: 50, y: 250))
+        logo.addLine(to: CGPoint(x: 100, y: 300))
+        logo.addLine(to: CGPoint(x: 50, y: 350))
+        logo.close()
+        logo.fill()
+    }
+    
+    private func drawFruitBowl() -> Void
+    {
+        let orange = UIBezierPath()
+        UIColor.orange.setFill()
+        
+        orange.addArc(withCenter: CGPoint(x: 50, y: 50),
+                      radius: CGFloat(20),
+                      startAngle: CGFloat(0),
+                      endAngle: CGFloat(2) * CGFloat.pi,
+                      clockwise: true)
+        
+        //orange.move(to: CGPoint(x: 50, y: 50))
+        //orange.close()
+        orange.fill()
     }
     
 
