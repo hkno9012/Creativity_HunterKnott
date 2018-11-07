@@ -12,6 +12,40 @@ private let reuseIdentifier = "artidentifier"
 
 public class CreativityCollectionViewController: UICollectionViewController
 {
+    
+    //MARK: Data members for Creativity Screen
+    
+    private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
+    private let itemsPerRowCompact: CGFloat = 4
+    private let itemsPerRowNormal: CGFloat = 6
+    
+    private let creativeCS: [UIImage?] =
+    {
+        return [
+            UIImage(named: "HaikuJava"),
+            UIImage(named: "HaikuSwift"),
+            UIImage(named: "HaikuMainframe"),
+            UIImage(named: "LastSupper"),
+            UIImage(named: "LastSupperPokemon"),
+            UIImage(named: "LastSupperMickey"),
+            UIImage(named: "Octocat"),
+            UIImage(named: "SwiftArt"),
+        ]
+    }()
+    
+    private let labels : [String] =
+    {
+        return [
+            "Java",
+            "Swift",
+            "Mainframe",
+            "DaVinci",
+            "Pokemon",
+            "Cartoon",
+            "Kitty",
+            "Fruitbowl"
+        ]
+    }()
 
     public override func viewDidLoad() -> Void
     {
@@ -22,6 +56,7 @@ public class CreativityCollectionViewController: UICollectionViewController
 
         // Register cell classes
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        //Identifying relationship between variable and code
 
         // Do any additional setup after loading the view.
     }
