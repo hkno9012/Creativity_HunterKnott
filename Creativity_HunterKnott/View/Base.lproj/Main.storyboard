@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="-242.40000000000001" y="288.30584707646182"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--Creativity Collection View Controller-->
         <scene sceneID="iVg-Rm-iFw">
             <objects>
-                <collectionViewController id="X52-gf-WHt" sceneMemberID="viewController">
+                <collectionViewController id="X52-gf-WHt" customClass="CreativityCollectionViewController" customModule="Creativity_HunterKnott" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="KeB-Hm-YDl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,7 +55,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9X7-wE-Z6h">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artidentifier" id="9X7-wE-Z6h">
                                 <rect key="frame" x="87.5" y="0.0" width="200" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">

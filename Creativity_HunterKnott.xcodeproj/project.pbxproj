@@ -13,6 +13,7 @@
 		869DFF20218B736E00287B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869DFF1F218B736E00287B9A /* Assets.xcassets */; };
 		869DFF23218B736E00287B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869DFF21218B736E00287B9A /* LaunchScreen.storyboard */; };
 		869DFF2F218B7D1300287B9A /* CreativityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869DFF2E218B7D1300287B9A /* CreativityView.swift */; };
+		86A52E6A219371ED0067A17C /* CreativityCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A52E69219371ED0067A17C /* CreativityCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		869DFF22218B736E00287B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		869DFF24218B736E00287B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		869DFF2E218B7D1300287B9A /* CreativityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityView.swift; sourceTree = "<group>"; };
+		86A52E69219371ED0067A17C /* CreativityCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				869DFF1A218B736100287B9A /* CreativityViewController.swift */,
+				86A52E69219371ED0067A17C /* CreativityCollectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				869DFF2F218B7D1300287B9A /* CreativityView.swift in Sources */,
 				869DFF1B218B736100287B9A /* CreativityViewController.swift in Sources */,
+				86A52E6A219371ED0067A17C /* CreativityCollectionViewController.swift in Sources */,
 				869DFF19218B736100287B9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
