@@ -14,6 +14,7 @@
 		869DFF23218B736E00287B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869DFF21218B736E00287B9A /* LaunchScreen.storyboard */; };
 		869DFF2F218B7D1300287B9A /* CreativityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869DFF2E218B7D1300287B9A /* CreativityView.swift */; };
 		86A52E6A219371ED0067A17C /* CreativityCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A52E69219371ED0067A17C /* CreativityCollectionViewController.swift */; };
+		86A52E6C219382200067A17C /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A52E6B219382200067A17C /* ArtCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		869DFF24218B736E00287B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		869DFF2E218B7D1300287B9A /* CreativityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityView.swift; sourceTree = "<group>"; };
 		86A52E69219371ED0067A17C /* CreativityCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityCollectionViewController.swift; sourceTree = "<group>"; };
+		86A52E6B219382200067A17C /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				869DFF1C218B736100287B9A /* Main.storyboard */,
 				869DFF21218B736E00287B9A /* LaunchScreen.storyboard */,
 				869DFF2E218B7D1300287B9A /* CreativityView.swift */,
+				86A52E6B219382200067A17C /* ArtCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				869DFF2F218B7D1300287B9A /* CreativityView.swift in Sources */,
 				869DFF1B218B736100287B9A /* CreativityViewController.swift in Sources */,
+				86A52E6C219382200067A17C /* ArtCell.swift in Sources */,
 				86A52E6A219371ED0067A17C /* CreativityCollectionViewController.swift in Sources */,
 				869DFF19218B736100287B9A /* AppDelegate.swift in Sources */,
 			);
