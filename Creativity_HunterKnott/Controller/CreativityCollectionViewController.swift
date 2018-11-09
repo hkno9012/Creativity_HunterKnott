@@ -30,6 +30,7 @@ public class CreativityCollectionViewController: UICollectionViewController
             UIImage(named: "LastSupperMickey"),
             UIImage(named: "Octocat"),
             UIImage(named: "SwiftArt"),
+            UIImage(named: "CodeMeme")
         ]
     }()
     
@@ -43,24 +44,20 @@ public class CreativityCollectionViewController: UICollectionViewController
             "Pokemon",
             "Cartoon",
             "Kitty",
-            "Fruitbowl"
+            "Fruitbowl",
+            "Bender"
         ]
     }()
 
     public override func viewDidLoad() -> Void
     {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-        //Identifying relationship between variable and code
-
+        
         // Do any additional setup after loading the view.
     }
-
+    
+    //MARK: - Navigation / Layout
+    
     public override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
@@ -68,8 +65,6 @@ public class CreativityCollectionViewController: UICollectionViewController
     }
 
     /*
-    // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
      {
@@ -77,9 +72,10 @@ public class CreativityCollectionViewController: UICollectionViewController
         // Pass the selected object to the new view controller.
     }
     */
-
-    // MARK: UICollectionViewDataSource
-
+    
+    
+    // MARK: - Navigation
+    
     public override func numberOfSections(in collectionView: UICollectionView) -> Int
     {
         return 1
@@ -89,6 +85,9 @@ public class CreativityCollectionViewController: UICollectionViewController
     {
         return creativeCS.count
     }
+    
+    
+    // MARK: UICollectionViewDataSource
 
     public override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
