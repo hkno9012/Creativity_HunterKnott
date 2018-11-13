@@ -16,8 +16,11 @@ public class CreativityCollectionViewController: UICollectionViewController
     //MARK: Data members for Creativity Screen
     
     private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
+    //Specifies distance between images
     private let itemsPerRowCompact: CGFloat = 4
+    //For smaller phones or when phones are upright
     private let itemsPerRowNormal: CGFloat = 6
+    //For phones on landscape or iPads
     
     private let creativeCS: [UIImage?] =
     {
@@ -57,6 +60,7 @@ public class CreativityCollectionViewController: UICollectionViewController
     }
     
     //MARK: - Navigation / Layout
+    //This comment is like Javadoc. It adds sections for you to access
     
     public override func didReceiveMemoryWarning()
     {
